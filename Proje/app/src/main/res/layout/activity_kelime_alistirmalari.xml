@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBCDCD"
+    android:visibility="visible"
+    tools:context=".KelimeAlistirmalari">
+
+    <Button
+        android:id="@+id/btnGoster"
+        android:layout_width="358dp"
+        android:layout_height="587dp"
+        android:backgroundTint="#FFC8C9"
+        android:onClick="kelimeAc"
+        android:text="ALIŞTIRMALARI GÖRMEK İÇİN TIKLAYINIZ"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/btnOne"
+            android:layout_width="357dp"
+            android:layout_height="349dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="148dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="89dp"
+            android:backgroundTint="#8EC5F1"
+            android:onClick="arkayaCevir"
+            android:text="Button"
+            android:textColor="#000000"
+            android:textSize="36sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnSiradaki"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnSiradaki"
+            android:layout_width="133dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="96dp"
+            android:backgroundTint="#C57575"
+            android:onClick="birSonraki"
+            android:text="Sonraki"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="410dp"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rbTurkceIngilizce"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:text="Türkçe - İngilizce"
+            android:visibility="visible" />
+
+        <RadioButton
+            android:id="@+id/rbIngilizcedenTurkce"
+            android:layout_width="158dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:text="İngilizce - Türkçe"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

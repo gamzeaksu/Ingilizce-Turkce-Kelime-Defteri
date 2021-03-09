@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cansuayten.proje">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Proje">
+        <activity android:name=".KelimeAlistirmalari"></activity>
+        <activity android:name=".Weather" />
+        <activity android:name=".Fruits" />
+        <activity android:name=".Clothes" />
+        <activity android:name=".Animals" />
+        <activity android:name=".KelimeKartlari" />
+        <activity android:name=".Colors" />
+        <activity android:name=".Kartlar" />
+        <activity android:name=".DinlemePratik" />
+        <activity android:name=".Siralama" />
+        <activity android:name=".Yarisma" />
+        <activity android:name=".CoktanSecmeli_Yeni" />
+        <activity android:name=".Admin" />
+        <activity android:name=".AdminGirisi" />
+        <activity android:name=".Kelime_Ekle_Listele" />
+        <activity android:name=".IstekSikayetGoruntule" />
+        <activity android:name=".IstekVeSikayet" />
+        <activity android:name=".ResimliKelimeKartlari" />
+        <activity android:name=".AraYeni" />
+        <activity android:name=".ListeYeni" />
+        <activity android:name=".GramerBilgi" />
+        <activity android:name=".Notlar" />
+        <activity android:name=".YeniParola" />
+        <activity android:name=".Giris">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Anasayfa" />
+        <activity android:name=".Calis" />
+        <activity android:name=".Ara" />
+        <activity android:name=".Listele" />
+        <activity android:name=".HesapOlustur" />
+    </application>
+
+</manifest>

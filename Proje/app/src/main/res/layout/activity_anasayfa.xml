@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBCDCD"
+    tools:context=".Anasayfa">
+
+    <Button
+        android:id="@+id/btnAra"
+        android:layout_width="167dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginBottom="13dp"
+        android:backgroundTint="#C57575"
+        android:text="ARA"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCalis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCalis"
+        android:layout_width="167dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="19dp"
+        android:backgroundTint="#C57575"
+        android:text="ÇALIŞ"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnYaris"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAra" />
+
+    <Button
+        android:id="@+id/btnYaris"
+        android:layout_width="167dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="99dp"
+        android:backgroundTint="#C57575"
+        android:text="YARIŞ"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalis" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

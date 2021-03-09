@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DinlemePratik">
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="41dp"
+        android:background="#FFC8C9"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="249dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#C57575"
+            android:text="dinle" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="253dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:hint="Cevap"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="249dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#C57575"
+            android:text="Sonuc" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="249dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#C57575"
+            android:text="Diger Kelime" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="253dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="30dp"
+            android:hint="Sonuc"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

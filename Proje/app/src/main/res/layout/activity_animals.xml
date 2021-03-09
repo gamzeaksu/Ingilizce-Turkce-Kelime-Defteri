@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBCDCD"
+    tools:context=".Colors">
+
+    <Button
+        android:id="@+id/btnAlistirmalariGor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#FFC8C9"
+        android:text="ALIŞTIRMALARI GÖRMEK İÇİN TIKLAYINIZ..."
+        android:textColor="#000000"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteY="703dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/btnSes"
+            android:layout_marginStart="150dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="95dp"
+            android:layout_height="84dp"
+            app:srcCompat="@drawable/ses" />
+
+        <ImageView
+            android:id="@+id/btnGorsel"
+            android:layout_width="match_parent"
+            android:layout_height="361dp"
+            android:layout_marginBottom="60dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/txtKelime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="10dp"
+            android:text="TextView"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtAnlam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="10dp"
+            android:text="TextView"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="384dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCocukOnceki"
+                android:layout_width="135dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#C57575"
+                android:text="Önceki" />
+
+            <Button
+                android:id="@+id/btnCocukSonraki"
+                android:layout_width="135dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="40dp"
+                android:backgroundTint="#C57575"
+                android:text="Sonraki" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

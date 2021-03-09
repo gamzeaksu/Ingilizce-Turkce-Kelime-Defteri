@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "772449313809",
+    "project_id": "projegiris-e79a8",
+    "storage_bucket": "projegiris-e79a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772449313809:android:fed3f011cc54aba2153db0",
+        "android_client_info": {
+          "package_name": "com.cansuayten.proje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772449313809-fsd2jh9rfgupk9njakmshlmdh1du2d69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2gKXFHVv0PH2mjK7ypu4By0fC7P0U1Rg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772449313809-fsd2jh9rfgupk9njakmshlmdh1du2d69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

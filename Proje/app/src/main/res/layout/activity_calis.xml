@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBCDCD"
+    tools:context=".Calis">
+
+    <Button
+        android:id="@+id/btnKelimeKartlari"
+        android:layout_width="169dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="23dp"
+        android:backgroundTint="#C57575"
+        android:text="kelime Kartları"
+        app:layout_constraintBottom_toTopOf="@+id/btnCoktanSecmeli"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNotlar" />
+
+    <Button
+        android:id="@+id/btnListeler"
+        android:layout_width="169dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="#C57575"
+        android:text="Listeler"
+        app:layout_constraintBottom_toTopOf="@+id/btnNotlar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnNotlar"
+        android:layout_width="169dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="22dp"
+        android:backgroundTint="#C57575"
+        android:text="Notlar"
+        app:layout_constraintBottom_toTopOf="@+id/btnKelimeKartlari"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnListeler" />
+
+    <Button
+        android:id="@+id/btnDinlemePratik"
+        android:layout_width="169dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#C57575"
+        android:text="Dinleme Pratik"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCoktanSecmeli" />
+
+    <Button
+        android:id="@+id/btnCoktanSecmeli"
+        android:layout_width="169dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="#C57575"
+        android:text="Çoktan Seçmeli"
+        app:layout_constraintBottom_toTopOf="@+id/btnDinlemePratik"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnKelimeKartlari" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

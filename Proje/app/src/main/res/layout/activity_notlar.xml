@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Liste"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBCDCD"
+    tools:context=".Notlar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ListView
+            android:id="@+id/NotListele"
+            android:layout_width="match_parent"
+            android:layout_height="389dp" />
+
+        <EditText
+            android:id="@+id/txtBaslik"
+            android:layout_width="246dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginBottom="25dp"
+            android:ems="10"
+            android:hint="Başlık..."
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtNot"
+            android:layout_width="246dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginBottom="25dp"
+            android:ems="10"
+            android:hint="Not...."
+            android:inputType="textPersonName" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnEkle"
+                android:layout_width="153dp"
+                android:layout_height="65dp"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginStart="30dp"
+                android:backgroundTint="#C57575"
+                android:text="Ekle" />
+
+            <Button
+                android:id="@+id/btnGit"
+                android:layout_width="153dp"
+                android:layout_height="65dp"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginStart="30dp"
+                android:backgroundTint="#C57575"
+                android:text="Gramer Bilgi" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
